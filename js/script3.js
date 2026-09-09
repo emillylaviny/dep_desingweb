@@ -7,4 +7,13 @@ let fds = confirm("Clique em ok se hoje é final de semana.")
 
 alert(`Você é maior de idade: ${idade >= 18}`);
 alert(`Hoje é final de semana: ${fds}`);
-alert(`Pode beber: ${idade >= 18 && fds}`);
+
+if (idade >= 18 && fds){
+    alert(`Pode beber`);
+}else if(idade < 18 && fds){
+    alert(`Não pode beber, pois não é menor de idade`);
+}else if(idade >= 18 && !fds){
+    alert(`não pode beber, pois não é fds`)
+}else{
+    alert(`não pode beber, pois é menor de idade e não é final de semana`)
+}
