@@ -13,4 +13,6 @@ if(dia ==1){
     alert("Hoje é sexta");
 }else if (dia == 7){
     alert("Hoje é sábado");
+}else{
+    alert("Dia inválido")
 }
