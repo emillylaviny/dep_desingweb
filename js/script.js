@@ -13,3 +13,5 @@ function saudacao_c(nome="Desconhecido"){
 function saudacao_d(nome="Desconhecido"){
     return `Olá ${nome}, seja bem-vindo`;
 }
+
+saudacao_a();
